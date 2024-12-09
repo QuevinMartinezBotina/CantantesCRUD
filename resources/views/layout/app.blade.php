@@ -17,11 +17,28 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css">
 
+    {{-- Iconos  --}}
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
     <title>@yield('title')</title>
 </head>
 
 <body>
+
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid d-flex justify-content-center">
+            <a class="nav-link mx-3 " href="https://www.youtube.com/@devparaelpueblo1333" target="_blank">
+                <i class="fab fa-youtube fs-2"></i>
+            </a>
+            <a class="nav-link mx-3 " href="hhttps://www.linkedin.com/in/quevin-santiago-martinez-botina-9b766a151/" target="_blank">
+                <i class="fab fa-linkedin fs-2"></i>
+            </a>
+            <a class="nav-link mx-3 " href="https://github.com/QuevinMartinezBotina" target="_blank">
+                <i class="fab fa-github fs-2"></i>
+            </a>
+        </div>
+    </nav>
+
     <div class="container p-3 ">
         @yield('content')
     </div>

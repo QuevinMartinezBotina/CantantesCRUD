@@ -76,7 +76,7 @@
                                     <th class=" ">Nombre del cantante</th>
                                     <th class=" ">Genero Musical</th>
                                     <th class=" ">País</th>
-                                    <th class=" ">Acciones </th>
+                                    <th class=" ">Acciones</th>
                                 </tfoot>
                             </table>
 
