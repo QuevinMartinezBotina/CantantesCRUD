@@ -1,0 +1,2 @@
+[phases.setup]
+runtime = "php@8.1"
